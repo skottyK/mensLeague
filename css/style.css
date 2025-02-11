@@ -19,13 +19,13 @@ body {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: clamp(24px, 5vw, 30px);
   font-weight: 500;
 }
 
 p {
   margin: 20px 0 10px;
-  font-size: 1.1rem;
+  font-size: clamp(14px, 2.5vw, 1.1rem);
 }
 
 section {
@@ -52,6 +52,7 @@ section.home {
   padding: 10px 30px;
   margin: 20px 0;
   border: 0;
+  font-size: clamp(12px, 2vw, 16px);
 }
 
 .btn:hover {
@@ -62,7 +63,7 @@ section.home {
   position: absolute;
   top: 30px;
   left: 100px;
-  font-size: 2rem;
+  font-size: clamp(20px, 4vw, 2rem);
   font-weight: 700;
   z-index: 20;
 }
@@ -78,6 +79,7 @@ section.home {
   margin: 20px 0;
   border: 0;
   text-align: center;
+  font-size: clamp(12px, 2vw, 16px);
 }
 
 .btn_v2:hover {
@@ -143,7 +145,7 @@ section.home {
 }
 
 .navigation ul li a {
-  font-size: 2.2rem;
+  font-size: clamp(16px, 3vw, 2.2rem);
   color: #111;
   text-decoration: none;
   font-weight: 300;
@@ -377,7 +379,6 @@ section.home {
   .logo {
     top: 10px;
     left: 40px;
-    font-size: 1.5rem;
   }
 
   section {
